@@ -1,0 +1,6 @@
+cd /var/www/webservice/rdata//affy/; 
+ R --slave --no-restore --file="launchFile_lars-test2_2014-11-18_13-18_49.R"<br><br>cd /var/www/webservice/data//lars-test2_2014-11-18_13-18_49_data/lars-test2_2014-11-18_13-18_49 
+ convert -page A4 `ls --time-style=full-iso --sort=time -r *.p*` lars-test2_2014-11-18_13-18_49.pdf 
+array(0) {
+}
+reading/var/www/webservice/data//lars-test2_2014-11-18_13-18_49_data/lars-test2_2014-11-18_13-18_49/lars-test2_2014-11-18_13-18_49.pdf

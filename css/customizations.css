@@ -1,0 +1,16 @@
+.ui-sortable {  
+    margin: 50px auto;  
+    -webkit-box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .1);  
+  list-style-type: none;   
+  padding: 20px;   
+}  
+
+
+.ui-sortable li{
+	border: 1px solid #CFCFCF;
+	padding: 4px;
+	margin: 4px;
+	height: 35px;
+	background-color: white;
+	cursor: move;
+}

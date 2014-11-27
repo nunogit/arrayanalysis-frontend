@@ -1,0 +1,5 @@
+cd /var/www/webservice/data//test/lars-test_2014-10-20_13-06_53 
+ convert -page A4 `ls --time-style=full-iso --sort=time -r *.p*` lars-test_2014-10-20_13-06_53.pdf 
+array(0) {
+}
+/var/www/webservice/data//test/lars-test_2014-10-20_13-06_53

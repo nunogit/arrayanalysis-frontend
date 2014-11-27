@@ -1,0 +1,9 @@
+copying -> /var/www/webservice/data//test/groups.meta <- /var/www/webservice/rdata//affy//groups.meta<- affyAnalysisQC(\"-d/var/www/webservice/data//test/lars-test_2014-10-20_13-06_53.zip\", \"-ggroups.meta\" , \"-s\", \"-P\", \"-f\", \"-jdataset\", \"-F\", \"-c\", \"-vpearson\", \"-wward\", \"-A/var/www/webservice/data//test/lars-test_2014-10-20_13-06_53\")<br><br><br>cd /var/www/webservice/rdata//affy/;
+ echo "source(\"affyAnalysisQC_web.R\")
+affyAnalysisQC(\"-d/var/www/webservice/data//test/lars-test_2014-10-20_13-06_53.zip\", \"-ggroups.meta\" , \"-s\", \"-P\", \"-f\", \"-jdataset\", \"-F\", \"-c\", \"-vpearson\", \"-wward\", \"-A/var/www/webservice/data//test/lars-test_2014-10-20_13-06_53\")
+" > launchFile_lars-test_2014-10-20_13-06_53.R<br><br>cd /var/www/webservice/rdata//affy/; 
+ R --slave --no-restore --file="launchFile_lars-test_2014-10-20_13-06_53.R"<br><br>cd /var/www/webservice/data//test/lars-test_2014-10-20_13-06_53 
+ convert -page A4 `ls --time-style=full-iso --sort=time -r *.p*` lars-test_2014-10-20_13-06_53.pdf 
+array(0) {
+}
+/var/www/webservice/data//test/lars-test_2014-10-20_13-06_53reading/var/www/webservice/data//test/lars-test_2014-10-20_13-06_53/lars-test_2014-10-20_13-06_53.pdf
